@@ -19,7 +19,7 @@ function onQualityChanged(qualityItemNum, quality) {
 };
 
 var Scroller = (function() {
-    const DEFAULT_QUALITY_ITEM = 4;     // 720p
+    const DEFAULT_QUALITY_ITEM = 3;     // 720p
     const ITEM_HEIGHT = 28.5;
     const NUM_OF_ITEMS = 9;
     const SPEED_ANCHOR = ITEM_HEIGHT * NUM_OF_ITEMS; // speed anchor

@@ -12,8 +12,8 @@ browser.storage.sync.get().then(data => {
 
     if (!itemNum) {
         itemNum = DEFAULT_QUALITY_ICON;
-        let qualityItemNum = 4;
-        let quality = "hd720";
+        let qualityItemNum = 3;
+        let quality = "hd1080";
         browser.storage.sync.set({ qualityItemNum, quality });
     }
 
